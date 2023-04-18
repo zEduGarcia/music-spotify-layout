@@ -208,6 +208,40 @@ section {
   font-family: "Lato", sans-serif;
 }
 
+
+/* SECTION CARDS */
+
+
+.section-plan{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.title-plan{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title-plan h2{
+  font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+
+}
+
+.title-plan p {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.card-area{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 /* medias query !! */
 
 @media (max-width: 768px) {
